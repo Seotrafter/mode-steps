@@ -1,0 +1,129 @@
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.container__flex_2, 
+	.container__flex_3, 
+	.container__flex_4 {
+		width: 100%;
+	}
+	.hero, .hero__overlay {
+		height: 100%;
+	}
+	.phone-fixed__icon {
+    	width: 35px;
+	}
+	.title-area {
+		position: relative;
+	}
+	.phone-fixed {
+		width: 80px;
+    	height: 80px;
+	}
+	.gallery__wrap div {
+	    padding: 5px;
+	    width: 100%;
+	}
+	.container__wrapper_nowrap {
+    	flex-wrap: wrap;
+	}
+	.container_height {
+		height: 100%;
+		width: 100%;
+	}
+	.header-area {
+		position: relative;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+	.footer__map, .footer__info {
+		width: 100%;
+	}
+	.form-form input, .form-form select {
+		width: 100%;
+	}
+	.policy-link {
+		text-align: center;
+	}
+	.container {
+		max-width: 90%;
+	}
+	.menu-logo__desktop {
+		display: block;
+    	position: relative;
+    	z-index: 19
+	}
+	.menu__logo_mobile {
+		display: none;
+	}
+	.hero__overlay {
+		background-color: #000000ab;
+		color: #fff;
+		height: 100%;
+	}
+	.hero__header, .hero__offer {
+		color: #fff;
+	}
+	.menu__icon {
+		display: block;
+	}
+	.nav-toggler {
+    	display: block;
+	    position: absolute;
+	    right: 5%;
+  	}
+  	.site-navbar {
+    	min-height: 60px;
+  	}
+	.site-navbar ul {
+	    position: absolute;
+	    width: 100%;
+	    height: calc(100vh - 60px);
+	    left: 0;
+	    top: 30px;
+	    flex-direction: column;
+	    align-items: center;
+	    background-color: #0c0b0cbd;
+	    max-height: 0;
+	    overflow: hidden;
+	    transition: .3s;
+	}
+	.header {
+		font-size: 30px;
+	}
+	.site-navbar ul li {
+	    width: 90%;
+	    text-align: center;
+	}
+	.site-navbar ul li a {
+	    padding: 25px;
+	    color: #fff;
+	}
+	.site-navbar ul li a:hover {
+	    background-color: rgba(255,255,255,.1);
+	}
+	.site-navbar ul.open {
+	    max-height: 100vh;
+	    overflow: visible;
+	    margin-top: 20px;
+	}
+	.intro-area h2 {
+	    font-size: 36px;
+	    margin-bottom: 15px;
+	}  
+	.menu__item {
+    	margin: 10px;
+	}
+	.menu__phone {
+		display: none;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.hero {
+		height: 100%;
+	}
+	.container_height {
+	    height: 100%;
+	    justify-content: center;
+	    flex-direction: column;
+	    width: 100%;
+	    padding: 80px 0px;
+	}
+}
